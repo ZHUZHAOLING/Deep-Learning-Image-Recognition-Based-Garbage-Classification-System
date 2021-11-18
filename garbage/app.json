@@ -30,14 +30,14 @@
       {
         "pagePath": "pages/guide/guide",
         "text": "Guide",
-        "iconPath": "image/菜单.png",
-        "selectedIconPath": "image/菜单 (1).png"
+        "iconPath": "image/menu.png",
+        "selectedIconPath": "image/menu (1).png"
       },
       {
         "pagePath": "pages/answer/answer",
         "text": "Question",
-        "iconPath": "image/100分.png",
-        "selectedIconPath": "image/100分 (1).png"
+        "iconPath": "image/100 points.png",
+        "selectedIconPath": "image/100 points (1).png"
       }
     ]
   },
