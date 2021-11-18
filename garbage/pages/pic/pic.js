@@ -31,7 +31,7 @@ Page({
       formData: null,
       success: function (res) {
         wx.hideLoading();
-        console.log(res) //接口返回网络路径
+        console.log(res) //Interface return network path
         var data = JSON.parse(res.data)
         data = JSON.stringify(data.result)
         wx.navigateTo({
