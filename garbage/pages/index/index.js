@@ -61,7 +61,7 @@ Page({
       })
     },
     inputTyping: function (e) {
-    //搜索数据
+    //Search data
     // getList(this, e.detail.value);
     this.setData({
       inputVal: e.detail.value
