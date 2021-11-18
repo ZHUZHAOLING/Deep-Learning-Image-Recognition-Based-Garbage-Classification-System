@@ -4,21 +4,21 @@ var jsonDict = require('data/data2.js');
 
 App({
   onLaunch() {
-    // 展示本地存储能力
+    // Demonstrate local storage capabilities
     const logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    // 登录
+    //Log in
     wx.login({
       success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        // Send res.code to the background in exchange for openId, sessionKey, unionId
       }
     })
   },
   globalData: {
     userInfo: null,
     garbageDict: jsonDict.garbageDict,
-    questionList: jsonList.questionList  // 拿到答题数据
+    questionList: jsonList.questionList  // Get answer data
   }
 })
