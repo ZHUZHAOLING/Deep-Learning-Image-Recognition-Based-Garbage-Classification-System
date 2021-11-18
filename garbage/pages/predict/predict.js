@@ -5,10 +5,10 @@ Page({
     result: '',
     img: '',
     imgDict: {
-      '其他垃圾': '../../image/rubish-1.png',
-      '厨余垃圾': '../../image/rubish-2.png',
-      '有害垃圾': '../../image/rubish-4.png',
-      '可回收物': '../../image/rubish-3.png',
+      'Other garbage': '../../image/rubish-1.png',
+      'Kitchen waste': '../../image/rubish-2.png',
+      'Hazardous waste': '../../image/rubish-4.png',
+      'Recyclables': '../../image/rubish-3.png',
       "": '../../image/wrong.png'
     }
   },
@@ -27,7 +27,7 @@ Page({
       console.log(this.data.img)
     }else{
       this.setData({
-        result: ['出错啦', '']
+        result: ['Something went wrong', '']
       })
     }
   },
