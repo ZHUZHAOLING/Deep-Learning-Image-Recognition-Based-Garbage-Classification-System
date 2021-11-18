@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/rubish/rubish",
+    "pages/guide/guide",
+    "pages/answer/answer",
+    "pages/logs/logs",
+    "pages/result/result",
+    "pages/pic/pic",
+    "pages/predict/predict"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#55ca7e",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#55ca7e",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "Predict",
+        "iconPath": "image/scan.png",
+        "selectedIconPath": "image/scan (1).png"
+      },
+      {
+        "pagePath": "pages/guide/guide",
+        "text": "Guide",
+        "iconPath": "image/菜单.png",
+        "selectedIconPath": "image/菜单 (1).png"
+      },
+      {
+        "pagePath": "pages/answer/answer",
+        "text": "Question",
+        "iconPath": "image/100分.png",
+        "selectedIconPath": "image/100分 (1).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

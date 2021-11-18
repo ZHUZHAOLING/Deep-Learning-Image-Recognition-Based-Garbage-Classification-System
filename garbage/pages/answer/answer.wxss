@@ -1,0 +1,16 @@
+.rubish_view{
+  margin: 50rpx auto;
+  width: 450rpx;
+  height: 100rpx;
+  border: 2rpx solid #eeeeee;
+  border-radius: 225rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.rubish_title{
+  margin: 80rpx auto;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+

@@ -1,0 +1,10 @@
+<view class="content">
+  <view class="rubish_title" wx:if="{{index < shuffleIndex.length}}">
+    <text>{{index+1}}、{{questionList[shuffleIndex[index]].question}}</text>
+  </view>
+  <view wx:for="{{questionList[shuffleIndex[index]].option}}" wx:for-index="key"  wx:for-item="value">
+    <view class="rubish_view" bindtap="garbageClick1" data-key="{{key}}" data-value="{{value}}">
+      <text>{{key}}、{{value}}</text>
+    </view>
+  </view>
+</view>

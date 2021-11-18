@@ -1,0 +1,13 @@
+.pic_view{
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 200rpx;
+  margin: 0 auto;
+  margin-top: 300rpx;
+  margin-bottom: 200rpx;
+}
+.pic_img{
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 200rpx;
+}

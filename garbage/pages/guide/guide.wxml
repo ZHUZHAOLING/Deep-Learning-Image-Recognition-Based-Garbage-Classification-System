@@ -1,0 +1,123 @@
+<!--pages/orderWine/orderWine.wxml-->
+<view class="container">
+    <view class="weui-tab bg-color-white ">     
+        <view class="weui-navbar">
+            <block wx:for-items="{{tabs}}" wx:key="{{index}}">
+                <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                <view class="weui-navbar__title">{{item}}</view>
+                </view>
+            </block>
+            <view class="weui-navbar__slider" style="left: {{sliderLeft}}px;  transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+        </view>
+        <view class="weui-tab__panel">
+        <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+            <scroll-view scroll-y="false"  bindscrolltoupper="refresh" bindscrolltolower="loadmore" bindscroll="scroll" scroll-top="{{scrolltop}}">
+              <view class="guide_info">
+                <view>
+                  <image src="../../image/rubish-2.png" class="rubish_img"></image>
+                </view>
+                <view class="view_title">
+                  <text class="text_title">Wet garbage</text>
+                </view>
+                <view class="text_content">
+                  <text>Wet garbage is also known as kitchen waste , organic waste , namely perishable garbage , it refers to food waste, leftovers , expired food, melons stones, flowers, plants, traditional Chinese medicine and so easy to dregs Rotten biomass domestic waste .</text>
+                </view>
+                <view class="text_content">
+                  <text style="font-size: 20px;font-weight: bold;color: black;">Wet garbage disposal</text>
+                </view>
+                <view class="text_content">
+                  <text>1. Pure liquid food waste, such as milk, etc., should be poured directly into the drain</text>
+                </view>
+                <view class="text_content">
+                  <text>2. Wet garbage with packaging should be removed and put in sorted out. Please put the packaging in the corresponding recyclable or dry garbage container. </text>
+                </view>
+              </view>
+            </scroll-view>
+        </view>
+        <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+            <scroll-view scroll-y="false"  bindscrolltoupper="refresh" bindscrolltolower="loadmore" bindscroll="scroll" scroll-top="{{scrolltop}}">
+              <view class="guide_info">
+                <view>
+                  <image src="../../image/rubish-1.png" class="rubish_img"></image>
+                </view>
+                <view class="view_title">
+                  <text class="text_title">Dry garbage</text>
+                </view>
+                <view class="text_content">
+                  <text>Dry garbage refers to other garbage, which refers to other household wastes except recyclable garbage, hazardous garbage, and wet garbage.</text>
+                </view>
+                <view class="text_content">
+                  <text style="font-size: 20px;font-weight: bold;color: black;">Dry garbage disposal</text>
+                </view>
+                <view class="text_content">
+                  <text>1.Drain as much water as possible</text>
+                </view>
+                <view class="text_content">
+                  <text>2.Difficult to identify categories within household waste into dry garbage containers</text>
+                </view>
+            </view>
+            </scroll-view>
+        </view>
+        <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+            <scroll-view scroll-y="false"  bindscrolltoupper="refresh" bindscrolltolower="loadmore" bindscroll="scroll" scroll-top="{{scrolltop}}">
+              <view class="guide_info">
+                <view>
+                  <image src="../../image/rubish-3.png" class="rubish_img"></image>
+                </view>
+                <view class="view_title">
+                  <text class="text_title">Recyclables</text>
+                </view>
+                <view class="text_content">
+                  <text>Recyclables refer to domestic wastes suitable for recycling and resource utilization. Recyclables main species include: paper , waste plastic bottles, scrap metal , packaging waste, textile waste, waste electrical and electronic products, waste glass, waste paper and plastic composite aluminum packaging and the like.</text>
+                </view>
+                <view class="text_content">
+                  <text style="font-size: 20px;font-weight: bold;color: black;">Recyclables disposal</text>
+                </view>
+                <view class="text_content">
+                  <text>1. Lightly cast lightly</text>
+                </view>
+                <view class="text_content">
+                  <text>2. Clean and dry, avoid pollution</text>
+                </view>
+                <view class="text_content">
+                  <text>3. The waste paper should be as flat as possible</text>
+                </view>
+              </view>
+            </scroll-view>
+        </view>
+        <view class="weui-tab__content" hidden="{{activeIndex != 3}}">
+            <scroll-view scroll-y="false"  bindscrolltoupper="refresh" bindscrolltolower="loadmore" bindscroll="scroll" scroll-top="{{scrolltop}}">
+              <view class="guide_info">
+                <view>
+                  <image src="../../image/rubish-4.png" class="rubish_img"></image>
+                </view>
+                <view class="view_title">
+                  <text class="text_title">Hazardous waste</text>
+                </view>
+                <view class="text_content">
+                  <text>Hazardous wastes are caused directly or potential hazard to human health or life of the natural environment of waste . Common hazardous waste including waste tube, waste paint, pesticides, cosmetics waste, expired drugs, waste batteries , lamp waste, waste mercury thermometers , etc., according to need special hazardous waste proper security processing method</text>
+                </view>
+                <view class="text_content">
+                  <text style="font-size: 20px;font-weight: bold;color: black;">Hazardous waste disposal</text>
+                </view>
+                <view class="text_content">
+                  <text>1. Charger, button batteries, battery-light running Note</text>
+                </view>
+                <view class="text_content">
+                  <text>2. If there are residues in paint buckets and pesticides, please close them and put them in</text>
+                </view>
+                <view class="text_content">
+                  <text>3. Fluorescent lamps and energy-saving lamps are easy to be damaged, please put them carefully after wrapping</text>
+                </view>
+              </view>
+            </scroll-view>
+        </view>
+    </view>
+ </view>
+
+</view>
+
+
+<!--点击选择 显示遮罩层-->
+
+<!--弹出选择存-->

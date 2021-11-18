@@ -1,0 +1,7 @@
+<view class="content">
+  <view class="pic_view">
+  <image src="{{imgPath}}" class="pic_img"></image>
+  </view>
+  <button type="default" bindtap="predictImg" hover-class="other-button-hover" class="wrong-btn" style="margin-bottom: 50rpx;"> Predict</button>
+  <button type="default" bindtap="toLast" hover-class="other-button-hover" class="wrong-btn"> Re upload</button>
+</view>
