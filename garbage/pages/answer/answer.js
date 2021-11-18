@@ -1,10 +1,10 @@
 const app = getApp()
 Page({
   data:{
-    index: 0,  // 题目序列
-    chooseValue: [], // 选择的答案序列
-    totalScore: 100, // 总分
-    wrongList: [], // 错误的题目集合
+    index: 0,  //Question sequence
+    chooseValue: [], // Selected answer sequence
+    totalScore: 100, // Total score
+    wrongList: [], // Wrong set of questions
     garbage: {"A": "Dry garbage", "B": "Wet garbage", "C":"Harmful Waste", "D": "Recyclable"}
   },
 
@@ -15,7 +15,7 @@ Page({
     })
     let count = this.generateArray(0, this.data.questionList.length - 1); 
     this.setData({
-      shuffleIndex: this.shuffle(count).slice(0, 10) // 生成随机题序并进行截取
+      shuffleIndex: this.shuffle(count).slice(0, 10) // Generate random question sequence and intercept
     })
     console.log(this.data.shuffleIndex)
   },
@@ -29,7 +29,7 @@ Page({
     return arr;
   },
   /**
-   * 生成一个从 start 到 end 的连续数组
+   * Generate a continuous array from start to end
    */
   generateArray: function (start, end) {
     return Array.from(new Array(end + 1).keys()).slice(start)
@@ -44,12 +44,12 @@ Page({
     }
     console.log(this.data.chooseValue)
     if (this.data.index < this.data.shuffleIndex.length - 1) {
-      // 渲染下一题
+      // Render the next question
       this.setData({
         index: this.data.index + 1
       })
     } else {
-      // 跳转到结果页
+      //Jump to the results page
       let chooseValue = JSON.stringify(this.data.chooseValue);
       wx.navigateTo({
         url: '../result/result?chooseValue=' + chooseValue,
@@ -58,14 +58,14 @@ Page({
   },
   
   tabClick(e) {
-    //tab切换
+    //tab switch
         this.setData({
             sliderOffset: e.currentTarget.offsetLeft,
             activeIndex: e.currentTarget.id
         });
  },
   showModal(){
-     //显示遮罩层 选择界面
+     //Show mask layer selection interface
       var animation = wx.createAnimation({
               duration: 300,
               timingFunction: "ease",
@@ -86,7 +86,7 @@ Page({
       
   },
   hideModal(){
-    //隐藏遮罩层
+    //Hide mask layer
      var animation = wx.createAnimation({
               duration: 300,
               timingFunction: "ease",
@@ -118,7 +118,7 @@ Page({
 
   },
   onReady:function(){
-    // 页面渲染完成
+    // Page rendering is complete
   },
   onShow:function(){
     this.setData({
@@ -127,20 +127,20 @@ Page({
     })
     let count = this.generateArray(0, this.data.questionList.length - 1); 
     this.setData({
-      shuffleIndex: this.shuffle(count).slice(0, 10) // 生成随机题序并进行截取
+      shuffleIndex: this.shuffle(count).slice(0, 10) // Generate random question sequence and intercept
     })
     console.log(this.data.shuffleIndex)
   },
   onHide:function(){
-    // 页面隐藏
+    //Page hidden
   },
   onUnload:function(){
-    // 页面关闭
+    // Page closed
   },
   onReachBottom:function(){
-    // 上拉触底时触发事件
+    // Trigger an event when the pull-up bottoms out
     wx.showLoading({
-      title: '加载中',
+      title: 'Loading',
     }) 
     setTimeout(function(){
       wx.hideLoading()
