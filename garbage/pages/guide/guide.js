@@ -1,10 +1,10 @@
 // pages/orderWine/orderWine.js
 Page({
   data:{
-    showModalStatus:false,             //是否显示mask   和选择菜单
-    chooseFactory:{},                   //选中的厂家
-    factoryList:{},                     //厂家列表
-    goodsList:{},                       //商品列表
+    showModalStatus:false,             //Whether to show mask and selection menu
+    chooseFactory:{},                   //Selected facturer
+    factoryList:{},                     //factory List
+    goodsList:{},                       //goods List
     tabs: ['Wet garbage', 'Dry garbage','Recyclable', 'Harmful Waste'],
     activeIndex: "0",
     sliderOffset: 0,
@@ -14,14 +14,14 @@ Page({
   },
   
   tabClick(e) {
-    //tab切换
+    //tab switch
         this.setData({
             sliderOffset: e.currentTarget.offsetLeft,
             activeIndex: e.currentTarget.id
         });
  },
   showModal(){
-     //显示遮罩层 选择界面
+     //Show mask layer selection interface
       var animation = wx.createAnimation({
               duration: 300,
               timingFunction: "ease",
@@ -42,7 +42,7 @@ Page({
       
   },
   hideModal(){
-    //隐藏遮罩层
+    //Hide mask layer
      var animation = wx.createAnimation({
               duration: 300,
               timingFunction: "ease",
@@ -74,21 +74,21 @@ Page({
 
   },
   onReady:function(){
-    // 页面渲染完成
+    // Page rendering is complete
   },
   onShow:function(){
-    // 页面显示
+    // Page display
   },
   onHide:function(){
-    // 页面隐藏
+    // Page hidden
   },
   onUnload:function(){
-    // 页面关闭
+    // Page closed
   },
   onReachBottom:function(){
-    // 上拉触底时触发事件
+    // Trigger an event when the pull-up bottoms out
     wx.showLoading({
-      title: '加载中',
+      title: 'Loading',
     }) 
     setTimeout(function(){
       wx.hideLoading()
