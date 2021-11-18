@@ -1,22 +1,22 @@
 <view class="content">
   <view class="weui-search-bar">
  <view class="weui-search-bar__form">
- <!--点击之后，出现input框 -->
+ <!--After clicking, the input box appears -->
  <view class="weui-search-bar__box">
  <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
 <input type="text" class="weui-search-bar__input" placeholder="search" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" bindconfirm="search"/>
-  <!--输入款字数大于0，则显示清除按钮 -->
+  <!--If the number of characters in the input section is greater than 0, the clear button will be displayed -->
   <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
   <icon type="clear" size="14"></icon>
   </view>
   </view>
-  <!--没点击之前，只是一些文字和图标 -->
+  <!--Before clicking, just some text and icons -->
   <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
   <icon class="weui-icon-search" type="search" size="14"></icon>
   <view class="weui-search-bar__text">search</view>
   </label>
   </view>
-  <!--动态出现的“取消”键 -->
+  <!--Dynamically appearing "Cancel" button -->
   <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">cancel</view>
 </view>
 <view>
