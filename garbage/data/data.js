@@ -6,7 +6,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "A",   // 正确答案
+  "answer": "A",   // correct answer
 }, {
   "question": "Soiled plastic",
   "option": {
@@ -15,7 +15,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "A",   // 正确答案
+  "answer": "A",   // correct answer
 }, {
   "question": "cigarette end",
   "option": {
@@ -24,7 +24,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "A",   // 正确答案
+  "answer": "A",   // correct answer
 }, {
   "question": "Toothpick",
   "option": {
@@ -33,7 +33,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "A",   // 正确答案
+  "answer": "A",   // correct answer
 }, {
   "question": "chopsticks",
   "option": {
@@ -42,7 +42,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "A",   // 正确答案
+  "answer": "A",   // correct answer
 }, {
   "question": "Stain paper",
   "option": {
@@ -51,7 +51,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "A",   // 正确答案
+  "answer": "A",   // correct answer
 }, {
   "question": "Vegetable leaf",
   "option": {
@@ -60,7 +60,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "Big bones",
   "option": {
@@ -69,7 +69,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "Book paper",
   "option": {
@@ -78,7 +78,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "Leftovers",
   "option": {
@@ -87,7 +87,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "Peel pulp",
   "option": {
@@ -96,7 +96,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "Fishbone",
   "option": {
@@ -105,7 +105,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "tea leaves",
   "option": {
@@ -114,7 +114,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "Eggshell",
   "option": {
@@ -123,7 +123,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "B",   // 正确答案
+  "answer": "B",   // correct answer
 }, {
   "question": "portable battery",
   "option": {
@@ -132,7 +132,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "package",
   "option": {
@@ -141,7 +141,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Trash",
   "option": {
@@ -150,7 +150,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "plastic ware",
   "option": {
@@ -159,7 +159,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Plastic toys",
   "option": {
@@ -168,7 +168,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "plastic hanger",
   "option": {
@@ -177,7 +177,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Express paper bag",
   "option": {
@@ -186,7 +186,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Plug wire",
   "option": {
@@ -195,7 +195,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "used clothes",
   "option": {
@@ -204,7 +204,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Cans",
   "option": {
@@ -213,7 +213,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "pillow",
   "option": {
@@ -222,7 +222,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Plush toys",
   "option": {
@@ -231,7 +231,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Toiletries",
   "option": {
@@ -240,7 +240,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Glassware",
   "option": {
@@ -249,7 +249,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "chopping block",
   "option": {
@@ -258,7 +258,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Carton carton",
   "option": {
@@ -267,7 +267,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Flowerpot",
   "option": {
@@ -276,7 +276,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "The seasoning bottle",
   "option": {
@@ -285,7 +285,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "The wine bottle",
   "option": {
@@ -294,7 +294,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Metal kitchenware",
   "option": {
@@ -303,7 +303,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Metal ware",
   "option": {
@@ -312,7 +312,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Metal food cans",
   "option": {
@@ -321,7 +321,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "pot",
   "option": {
@@ -330,7 +330,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Ceramic ware",
   "option": {
@@ -339,7 +339,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "shoes",
   "option": {
@@ -348,7 +348,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Edible oil barrel",
   "option": {
@@ -357,7 +357,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "Beverage bottle",
   "option": {
@@ -366,7 +366,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "C",   // 正确答案
+  "answer": "C",   // correct answer
 }, {
   "question": "dry battery",
   "option": {
@@ -375,7 +375,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "D",   // 正确答案
+  "answer": "D",   // correct answer
 }, {
   "question": "ointment",
   "option": {
@@ -384,7 +384,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "D",   // 正确答案
+  "answer": "D",   // correct answer
 }, {
   "question": "expired drug",
   "option": {
@@ -393,7 +393,7 @@ var json = [{
     "C": "Harmful Waste",
     "D": "Recyclable",
   },
-  "answer": "D",   // 正确答案
+  "answer": "D",   // correct answer
 }
 ]
 
